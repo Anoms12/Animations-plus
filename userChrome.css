@@ -1,50 +1,3 @@
-@import "tabgroups.css";
-
-/* Move URL Bar to bottom. */
-/* #nav-bar {
-    position: fixed !important;
-    bottom: var(--zen-toolbar-height) !important;
-    width: calc(var(--actual-zen-sidebar-width) - var(--zen-toolbox-padding) * 2) !important;
-    left: var(--zen-toolbox-padding) !important;
-}
-
-#zen-tabs-wrapper {
-    margin-bottom: var(--zen-toolbar-height) !important;
-}*/
-
-/* Workspace dock. */
-/* #zen-workspaces-button {
-    position: fixed !important;
-    right: 0 !important;
-    top: 50% !important;
-    transform: translateY(-50%) !important;
-    min-width: 28px !important;
-    width: auto !important;
-    border-radius: 8px 0 0 8px !important;
-    background-color: var(--zen-colors-secondary) !important;
-    padding: 5px 8px 5px 10px !important;
-    display: flex !important;
-    flex-direction: column !important;
-}
-
-.subviewbutton {
-    width: 25px !important;
-    height: 24px !important;
-} */
-
-/* Rotation and border on pinned tabs for a special effect. */
-/* #vertical-pinned-tabs-container .tab-background {
-    border-top: 2px solid rgba(255, 255, 255, 0.1) !important;
-    border-right: 2px solid rgba(255, 255, 255, 0.1) !important;
-    transition: all 200ms ease;
-}
-
-#vertical-pinned-tabs-container .tab-stack:hover .tab-background {
-    border-top: 2px solid transparent !important;
-    border-right: 2px solid transparent !important;
-    transform: rotateX(8deg) rotateY(8deg);
-} */
-
 .tab-background {
     transition: background-color 0.4s ease, box-shadow 0.4s ease, background 0.5s ease !important;
 }
@@ -132,6 +85,6 @@
     }
 }
 
-#urlbar[zen-newtab="true"] {
+#urlbar[zen-newtab="true"][breakout-extend="true"] {
     animation: pop-up 0.3s ease forwards;
 }
