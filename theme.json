@@ -1,0 +1,18 @@
+{
+    "id": "animations-plus",
+    "name": "Animations Plus",
+    "description": "Advanced Tab Group CSS for Zen Browser ",
+    "homepage": "https://github.com/Anoms12/Animations-plus",
+    "style": "https://raw.githubusercontent.com/Anoms12/Animations-plus/main/userChrome.css",
+    "readme": "https://raw.githubusercontent.com/Anoms12/Animations-plus/main/README.md",
+    "image": "https://raw.githubusercontent.com/Anoms12/Animations-plus/main/image.png",
+    "author": "Anoms12",
+    "version": "1.1",
+    "tags": [
+        "sine",
+        "Animations",
+        "Anoms12"
+    ],
+    "createdAt": "2025-05-20",
+    "updatedAt": "2025-05-20"
+}
