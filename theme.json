@@ -1,7 +1,7 @@
 {
     "id": "animations-plus",
     "name": "Animations Plus",
-    "description": "Advanced Tab Group CSS for Zen Browser.",
+    "description": "A nice animation pack for Zen Browser.",
     "homepage": "https://github.com/Anoms12/Animations-plus",
     "style": "https://raw.githubusercontent.com/Anoms12/Animations-plus/main/userChrome.css",
     "readme": "https://raw.githubusercontent.com/Anoms12/Animations-plus/main/README.md",
