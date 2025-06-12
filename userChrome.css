@@ -88,3 +88,7 @@
 #urlbar[zen-newtab="true"][breakout-extend="true"] {
     animation: pop-up 0.3s ease forwards;
 }
+    
+menuitem, button, .urlbarView-row, toolbarbutton   {
+  transition: background-color 0.3s ease-in-out !important;    
+    }
