@@ -10,15 +10,13 @@
 /* For toolbarbutton-1 */
 .toolbarbutton-1 {
 
-    &:hover > :is(.toolbarbutton-icon, .toolbarbutton-text, .toolbarbutton-badge-stack) {
+
       transition: background-color 0.3s ease-in-out, 
-                  outline-color 0.3s ease-in-out; /* Smooth transition */
-    }
-    
-    > :is(.toolbarbutton-icon, .toolbarbutton-text, .toolbarbutton-badge-stack) {
+                  outline-color 0.3s ease-in-out !important;
+
+.toolbarbutton-badge-stack, .toolbarbutton-icon {
       transition: background-color 0.3s ease-in-out, 
-                  outline-color 0.3s ease-in-out;
-    }
+                  outline-color 0.3s ease-in-out !important;
   }
 
 .identity-box-button {
@@ -26,10 +24,11 @@
               outline-color 1.3s ease-in-out;
 }
 
+.zen-current-workspace-indicator {
+  transition: background-color 0.3s ease-in-out, 
+              outline-color 1.3s ease-in-out;
+}
 
-
-
-/* Apply transition to urlbar controls, this is what I found worked...*/
 #reader-mode-button, 
 #star-button-box, 
 #zen-split-views-box, 
@@ -40,7 +39,9 @@
 #picture-in-picture-button, 
 #page-action-buttons, 
 #urlbar-go-button, 
-#urlbar-revert-button-container {
+#urlbar-revert-button-container,
+.urlbarView-row
+ {
   transition: background-color 0.3s ease-in-out, 
               outline-color 0.3s ease-in-out !important;
 }
@@ -88,7 +89,3 @@
 #urlbar[zen-newtab="true"][breakout-extend="true"] {
     animation: pop-up 0.3s ease forwards;
 }
-    
-menuitem, button, .urlbarView-row, toolbarbutton   {
-  transition: background-color 0.3s ease-in-out !important;    
-    }
