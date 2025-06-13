@@ -1,3 +1,16 @@
+@keyframes urlbar-pop-up {
+  0% {
+    transform: translateX(-50%) translateY(-20%);
+  }
+  100% {
+    transform: translateX(-50%) translateY(0%);
+  }
+}
+
+#urlbar[zen-newtab="true"][breakout-extend="true"] {
+  animation: urlbar-pop-up 0.3s ease-out !important;
+}
+
 .tab-background {
     transition: background-color 0.4s ease, box-shadow 0.4s ease, background 0.5s ease !important;
 }
@@ -73,19 +86,4 @@
 
 .urlbarView-row-inner {
     transition: background-color 0.3s ease-in-out !important; /* Smooth transition for background-color */ 
-}
-
-@keyframes pop-up {
-    0% {
-        transform: translateX(-50%) translateY(-20%);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(-50%) translateY(0%);
-        opacity: 1;
-    }
-}
-
-#urlbar[zen-newtab="true"][breakout-extend="true"] {
-    animation: pop-up 0.3s ease forwards;
 }
